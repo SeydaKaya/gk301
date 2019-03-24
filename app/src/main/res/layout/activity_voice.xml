@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VoiceActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/imageView2"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <Button
+            android:id="@+id/kaydet"
+            android:text="KAYDET"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textColor="@color/turuncu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/durdur"
+            android:text="DURDUR"
+            android:layout_weight="1"
+            android:textColor="@color/mavi"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/cal"
+            android:text="ÇAL"
+            android:layout_weight="1"
+            android:textColor="@color/pembe"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

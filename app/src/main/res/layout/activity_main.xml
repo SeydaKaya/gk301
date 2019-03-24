@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_margin="@dimen/margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:onClick="fotografVideoCek"
+        style="@style/buton_stili"
+        android:background="@color/mavi"
+        android:layout_weight="1"
+        android:id="@+id/fotografvideo"
+        android:text="@string/fotograf_video"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buton_yuksekligi" />
+    <Button
+        android:onClick="voice"
+        style="@style/buton_stili"
+        android:background="@color/yesil"
+        android:layout_weight="1"
+        android:id="@+id/seskayit"
+        android:text="@string/ses_kayit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buton_yuksekligi" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/buton_stili"
+            android:background="@color/pembe"
+            android:layout_weight="1"
+            android:id="@+id/harita"
+            android:text="@string/harita"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buton_yuksekligi" />
+        <Button
+            android:onClick="Web"
+            style="@style/buton_stili"
+            android:background="@color/sarı"
+            android:layout_weight="1"
+            android:id="@+id/web"
+            android:text="@string/web"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buton_yuksekligi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:onClick="smsGonder"
+            style="@style/buton_stili"
+            android:background="@color/turuncu"
+            android:layout_weight="1"
+            android:id="@+id/sms"
+            android:text="@string/sms"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buton_yuksekligi" />
+        <Button
+            android:onClick="aramaYap"
+            style="@style/buton_stili"
+            android:background="@color/kırmızı"
+            android:layout_weight="1"
+            android:id="@+id/arama"
+            android:text="@string/arama"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buton_yuksekligi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        </LinearLayout>
+</LinearLayout>
